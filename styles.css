@@ -1,10 +1,78 @@
-div ul>li {
-    font-family: Arial, Helvetica, sans-serif;
-    color: gray;
-    font-size: 1.5em;
-    font-weight: 300;
+body {
+    margin:0;
+    padding:0; 
+    background-color:#faf8f7;
+    font-size: 16px;
+    font-family: Helvetica Neue, sans-serif;
+    color: #1e3945;
+    background-color: #fff;
+}
+
+#main-nav {
+    height: 100px;
+    font-size: 1.05em;
+    background-color: #fafbfb;
+    border-style: none;
+}
+
+#nav-items {
+    font-size: 1em;
+    font-weight: 200;
     padding: 0 20px 0 20px;
+    margin: 15px 0 0 20px;
     line-height: 1.5em;
+}
+
+.search-area {
+    margin-top: -20px;
+    padding: 40px 60px;
+    height: 250px;
+    width: 100%;
+    background-color: #fafbfb;
+}
+
+#search-items {
+    padding-left: 10px;
+    margin-left: -28px;
+}
+
+.search-items {
+    display: inline;
+    font-size: 1em;
+    text-decoration: none;
+    padding-right: 5px;
+    margin: 20px;
+}
+
+p {
+    font-size: 1em;
+}
+
+.search-form {
+    height: 50px;
+    width: 2px;
+    display: flex;
+}
+
+#id {
+    width: 20px;
+    border: 2px solid red;
+}
+
+.search-area-item {
+    margin-left: 60px;
+    padding-left: 70px;
+    padding-right: 100px;
+    font-size: 2rem;
+}
+
+.search-text {
+    font-size: 2em;
+}
+
+.big-container {
+    margin: 0 100px;
+    padding:  20px 80px;
 }
 
 .navbar-brand {
@@ -19,22 +87,27 @@ div ul>li {
     display: flex;
 }
 
-span {
-    display: flex;
+div span {
+    display: block;
     background-color: white;
     border-color: white;
 }
 
+#card3 {
+    height: 400px;
+    border: 2px solid ;
+}
+
 .about-area {
-	background-color: #f3f3f7;
+	background-color: #fafbfb;
 	border-style: none;
-	margin: 30px 10px;
+	margin: 30px -15px;
 	padding: 50px;
-	line-height: 2.5rem;
-	font-size: 1.65rem;
+	line-height: 1.5em;
+	font-size: 1em;
 	color: #50656e;
     text-align: justify;
-    padding: 20px 100px;
+    padding: 20px 100px 105px;
 }
 
 p.a, p.b {
@@ -42,14 +115,26 @@ p.a, p.b {
 }
 
 .top-row, .center-row, .bottom-row {
-    height: 30%;
+    height: 29%;
     color: #50656e;
-    border: 1px solid #ebedee;
-    margin-bottom: 10px;
+    border: 1px solid rgb(7, 141, 207);
+    margin-bottom: 20px;
     border-radius: 5px;
-    padding: 2px;
-    box-shadow: 2px;
+    padding: 4px;
+    box-shadow: 50px;
 
+
+}
+
+.third-div-text {
+    padding: 2px auto 2px 1px;
+}
+
+.third-div-img {
+    height: 100px; 
+    width: 120px;
+    padding: 0;
+    margin: -4px;
 }
 
 .flex-container {
@@ -80,7 +165,6 @@ p.a, p.b {
     text-align: center;
     text-decoration: none;
     padding: 5px;
-    font-size: 15px;
 }
 
 #navcontainer {
